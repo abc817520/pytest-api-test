@@ -1,0 +1,6 @@
+env: test
+
+test:
+  base_url: https://dummyjson.com
+  username: emilys
+  password: emilyspass

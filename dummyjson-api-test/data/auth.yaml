@@ -1,0 +1,12 @@
+login:
+  正常登录:
+    username: emilys
+    password: emilyspass
+    expect_status: 200
+    expect_token: true
+
+  密码错误:
+    username: emilys
+    password: emilyswrongpass
+    expect_status: 400
+    expect_token: false

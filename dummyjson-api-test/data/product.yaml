@@ -1,0 +1,4 @@
+product_list:
+  获取商品列表:
+    expect_status: 200
+    min_total: 1
